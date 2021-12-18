@@ -7,7 +7,10 @@ public class ArraysConsoantes {
 
         Scanner scan = new Scanner(System.in);
 
-        String[] consoantes = new String[4];
+        System.out.println("Qual o tamanho do array que você deseja? ");
+        int tam_array = scan.nextInt();
+
+        String[] consoantes = new String[tam_array];
 
         int count = 0, qtd_consoantes = 0;
 
